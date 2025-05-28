@@ -99,3 +99,5 @@ Build a comprehensive web application that allows users to explore food products
 - CSS Modules for component isolation
 - Responsive design with mobile-first approach
 - Consistent design system with CSS custom properties
+
+# Time taken to complete the assignment- 4 hrs
