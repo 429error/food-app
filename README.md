@@ -3,6 +3,7 @@
 ## Problem Statement
 Build a comprehensive web application that allows users to explore food products using the OpenFoodFacts API. The application needed to provide search functionality, filtering capabilities, sorting options and detailed product information while maintaining a responsive and user-friendly interface.
 
+
 ## Solution Approach
 ### 1. Architecture Decision
 
@@ -12,6 +13,7 @@ Build a comprehensive web application that allows users to explore food products
 - **API Integration**: Fetch API with custom hooks for data management
 
 **Rationale**: React with Vite provides fast development experience and optimal build performance. Context API offers sufficient state management for the application's complexity without the overhead of Redux.
+
 
 ### 2. API Integration Strategy
 
@@ -28,6 +30,7 @@ Build a comprehensive web application that allows users to explore food products
 - Implemented error handling and loading states
 - Added request debouncing for search functionality to optimize API calls
 - Cached frequently requested data to reduce API load
+
 
 ### 3. Feature Implementation Methodology
 
@@ -64,7 +67,9 @@ Build a comprehensive web application that allows users to explore food products
 - Comprehensive product information display
 - Conditional rendering for missing data fields
 - Responsive layout for mobile and desktop
-### 5. State Management Strategy
+
+  
+### 4. State Management Strategy
 
 **Context API Implementation:**
 ```javascript
@@ -76,6 +81,7 @@ Build a comprehensive web application that allows users to explore food products
 ```
 
 **Rationale**: Context API provided sufficient complexity management without Redux overhead, keeping the codebase simpler and more maintainable.
+
 
 ## Key Design Decisions
 
